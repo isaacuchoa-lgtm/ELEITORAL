@@ -77,14 +77,20 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Sistema de Votação Kawaii — Julio 1 vs Julio 2" },
+      {
+        name: "description",
+        content:
+          "Urna eletrônica fofa e fictícia: conheça as propostas de Julio 1 e Julio 2, vote e acompanhe os resultados em tempo real.",
+      },
+      { name: "author", content: "Sistema de Votação Kawaii" },
+      { property: "og:title", content: "Sistema de Votação Kawaii — Julio 1 vs Julio 2" },
+      {
+        property: "og:description",
+        content: "Urna fictícia em estilo kawaii com votação e resultados em tempo real.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
